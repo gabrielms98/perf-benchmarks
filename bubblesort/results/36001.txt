@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 36001':
+
+        38.589.973      L1-dcache-load-misses                                         (85,72%)
+        13.080.289      l2_rqsts.miss             #    1,986 M/sec                    (85,74%)
+           134.143      LLC-load-misses                                               (85,69%)
+     1.296.885.502      branches                  #  196,892 M/sec                    (85,69%)
+       159.229.261      branch-misses             #   12,28% of all branches          (57,16%)
+          6.586,79 msec task-clock                #    0,999 CPUs utilized          
+    15.061.886.422      cycles                    #    2,287 GHz                      (71,40%)
+    30.049.464.957      instructions              #    2,00  insn per cycle           (85,72%)
+
+       6,595635808 seconds time elapsed
+
+       6,579541000 seconds user
+       0,007994000 seconds sys
+
+

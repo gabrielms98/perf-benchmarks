@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 42001':
+
+        53.386.296      L1-dcache-load-misses                                         (85,71%)
+         6.938.728      l2_rqsts.miss             #    0,816 M/sec                    (85,71%)
+            31.928      LLC-load-misses                                               (85,71%)
+     1.767.426.929      branches                  #  207,755 M/sec                    (85,71%)
+       218.613.732      branch-misses             #   12,37% of all branches          (57,17%)
+          8.507,28 msec task-clock                #    1,000 CPUs utilized          
+    19.478.538.091      cycles                    #    2,290 GHz                      (71,46%)
+    40.904.926.401      instructions              #    2,10  insn per cycle           (85,71%)
+
+       8,508264527 seconds time elapsed
+
+       8,507740000 seconds user
+       0,000000000 seconds sys
+
+

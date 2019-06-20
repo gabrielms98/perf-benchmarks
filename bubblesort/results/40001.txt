@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 40001':
+
+        48.089.186      L1-dcache-load-misses                                         (85,70%)
+        14.066.399      l2_rqsts.miss             #    1,828 M/sec                    (85,70%)
+            30.762      LLC-load-misses                                               (85,70%)
+     1.602.986.038      branches                  #  208,357 M/sec                    (85,71%)
+       196.761.167      branch-misses             #   12,27% of all branches          (57,19%)
+          7.693,46 msec task-clock                #    1,000 CPUs utilized          
+    17.614.267.584      cycles                    #    2,290 GHz                      (71,46%)
+    37.098.166.634      instructions              #    2,11  insn per cycle           (85,71%)
+
+       7,694420764 seconds time elapsed
+
+       7,693858000 seconds user
+       0,000000000 seconds sys
+
+

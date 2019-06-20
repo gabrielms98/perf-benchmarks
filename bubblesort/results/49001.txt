@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 49001':
+
+        73.661.318      L1-dcache-load-misses                                         (85,71%)
+        23.725.866      l2_rqsts.miss             #    1,999 M/sec                    (85,72%)
+           120.318      LLC-load-misses                                               (85,72%)
+     2.404.721.429      branches                  #  202,577 M/sec                    (85,71%)
+       305.116.660      branch-misses             #   12,69% of all branches          (57,14%)
+         11.870,68 msec task-clock                #    1,000 CPUs utilized          
+    27.169.840.469      cycles                    #    2,289 GHz                      (71,42%)
+    55.757.836.718      instructions              #    2,05  insn per cycle           (85,71%)
+
+      11,873040915 seconds time elapsed
+
+      11,870674000 seconds user
+       0,000000000 seconds sys
+
+

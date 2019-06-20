@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 41001':
+
+        50.742.016      L1-dcache-load-misses                                         (85,69%)
+         8.662.886      l2_rqsts.miss             #    1,073 M/sec                    (85,69%)
+            31.336      LLC-load-misses                                               (85,71%)
+     1.683.563.719      branches                  #  208,449 M/sec                    (85,74%)
+       207.473.769      branch-misses             #   12,32% of all branches          (57,18%)
+          8.076,63 msec task-clock                #    1,000 CPUs utilized          
+    18.492.646.616      cycles                    #    2,290 GHz                      (71,44%)
+    38.982.335.112      instructions              #    2,11  insn per cycle           (85,70%)
+
+       8,077647523 seconds time elapsed
+
+       8,077007000 seconds user
+       0,000000000 seconds sys
+
+

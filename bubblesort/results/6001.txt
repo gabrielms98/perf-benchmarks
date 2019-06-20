@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 6001':
+
+            46.366      L1-dcache-load-misses                                         (85,37%)
+            55.749      l2_rqsts.miss             #    0,408 M/sec                    (85,37%)
+             2.479      LLC-load-misses                                               (85,37%)
+        36.350.414      branches                  #  265,959 M/sec                    (85,37%)
+         2.099.808      branch-misses             #    5,78% of all branches          (58,53%)
+            136,68 msec task-clock                #    0,998 CPUs utilized          
+       312.946.984      cycles                    #    2,290 GHz                      (73,16%)
+       834.589.836      instructions              #    2,67  insn per cycle           (87,79%)
+
+       0,136945290 seconds time elapsed
+
+       0,137020000 seconds user
+       0,000000000 seconds sys
+
+

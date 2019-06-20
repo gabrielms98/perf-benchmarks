@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 26001':
+
+        18.814.910      L1-dcache-load-misses                                         (85,70%)
+         1.576.177      l2_rqsts.miss             #    0,499 M/sec                    (85,70%)
+            14.184      LLC-load-misses                                               (85,70%)
+       677.531.645      branches                  #  214,328 M/sec                    (85,70%)
+        77.143.348      branch-misses             #   11,39% of all branches          (57,19%)
+          3.161,19 msec task-clock                #    1,000 CPUs utilized          
+     7.237.557.510      cycles                    #    2,290 GHz                      (71,48%)
+    15.703.565.245      instructions              #    2,17  insn per cycle           (85,74%)
+
+       3,162531942 seconds time elapsed
+
+       3,161550000 seconds user
+       0,000000000 seconds sys
+
+
