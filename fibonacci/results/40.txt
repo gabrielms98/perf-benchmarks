@@ -1,0 +1,18 @@
+
+ Performance counter stats for './fibonacci/a.out 40':
+
+            71.857      L1-dcache-load-misses                                         (85,66%)
+            89.550      l2_rqsts.code_rd_miss     #    0,128 M/sec                    (85,65%)
+             6.387      LLC-load-misses                                               (85,65%)
+     1.159.601.725      branches                  # 1663,668 M/sec                    (85,66%)
+            91.149      branch-misses             #    0,01% of all branches          (57,38%)
+            697,01 msec task-clock                #    0,999 CPUs utilized          
+     2.150.780.688      cycles                    #    3,086 GHz                      (71,73%)
+     5.622.157.067      instructions              #    2,61  insn per cycle           (85,84%)
+
+       0,697576914 seconds time elapsed
+
+       0,697364000 seconds user
+       0,000000000 seconds sys
+
+

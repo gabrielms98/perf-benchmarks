@@ -1,0 +1,18 @@
+
+ Performance counter stats for './fibonacci/a.out 32':
+
+            20.816      L1-dcache-load-misses                                         (73,40%)
+            23.937      l2_rqsts.code_rd_miss     #    1,593 M/sec                    (73,40%)
+             2.549      LLC-load-misses                                               (73,40%)
+        24.897.112      branches                  # 1656,747 M/sec                    (82,22%)
+             4.780      branch-misses             #    0,02% of all branches          (97,58%)
+             15,03 msec task-clock                #    0,980 CPUs utilized          
+        46.392.517      cycles                    #    3,087 GHz                      (97,58%)
+       122.063.834      instructions              #    2,63  insn per cycle           (97,58%)
+
+       0,015339013 seconds time elapsed
+
+       0,015333000 seconds user
+       0,000000000 seconds sys
+
+

@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 290000':
+
+         3.587.943      L1-dcache-load-misses                                         (83,95%)
+            31.998      l2_rqsts.code_rd_miss     #    0,428 M/sec                    (84,29%)
+            43.813      LLC-load-misses                                               (83,96%)
+        27.537.198      branches                  #  368,329 M/sec                    (83,95%)
+         2.790.047      branch-misses             #   10,13% of all branches          (63,85%)
+             74,76 msec task-clock                #    0,991 CPUs utilized          
+       230.374.854      cycles                    #    3,081 GHz                      (77,30%)
+       249.741.990      instructions              #    1,08  insn per cycle           (87,99%)
+
+       0,075426976 seconds time elapsed
+
+       0,075122000 seconds user
+       0,000000000 seconds sys
+
+

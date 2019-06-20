@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 40000':
+
+           205.530      L1-dcache-load-misses                                         (52,51%)
+            31.529      l2_rqsts.code_rd_miss     #    3,748 M/sec                    (52,50%)
+             1.914      LLC-load-misses                                               (96,86%)
+         3.349.551      branches                  #  398,131 M/sec                  
+           335.660      branch-misses             #   10,02% of all branches          (98,13%)
+              8,41 msec task-clock                #    0,958 CPUs utilized          
+        25.872.595      cycles                    #    3,075 GHz                      (98,13%)
+        30.268.484      instructions              #    1,17  insn per cycle           (98,13%)
+
+       0,008777578 seconds time elapsed
+
+       0,008665000 seconds user
+       0,000000000 seconds sys
+
+

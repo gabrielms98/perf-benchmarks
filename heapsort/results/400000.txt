@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 400000':
+
+         5.271.356      L1-dcache-load-misses                                         (85,15%)
+            42.429      l2_rqsts.code_rd_miss     #    0,394 M/sec                    (85,16%)
+            88.368      LLC-load-misses                                               (85,16%)
+        38.889.033      branches                  #  360,854 M/sec                    (85,16%)
+         4.032.140      branch-misses             #   10,37% of all branches          (59,38%)
+            107,77 msec task-clock                #    0,997 CPUs utilized          
+       332.110.742      cycles                    #    3,082 GHz                      (74,23%)
+       348.336.972      instructions              #    1,05  insn per cycle           (85,46%)
+
+       0,108112308 seconds time elapsed
+
+       0,104053000 seconds user
+       0,004002000 seconds sys
+
+
