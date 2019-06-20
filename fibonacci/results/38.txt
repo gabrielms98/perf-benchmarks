@@ -1,18 +1,18 @@
 
- Performance counter stats for './fibonacci/a.out 38':
+ Performance counter stats for './a.out 38':
 
-            29.340      L1-dcache-load-misses                                         (84,79%)
-            38.743      l2_rqsts.code_rd_miss     #    0,147 M/sec                    (84,79%)
-             3.183      LLC-load-misses                                               (85,62%)
-       442.852.290      branches                  # 1684,031 M/sec                    (86,31%)
-            45.547      branch-misses             #    0,01% of all branches          (58,49%)
-            262,97 msec task-clock                #    0,999 CPUs utilized          
-       811.548.087      cycles                    #    3,086 GHz                      (72,18%)
-     2.151.871.635      instructions              #    2,65  insn per cycle           (85,87%)
+            23.173      L1-dcache-load-misses                                         (84,74%)
+            46.493      l2_rqsts.miss             #    0,177 M/sec                    (85,36%)
+             2.140      LLC-load-misses                                               (86,26%)
+       442.881.735      branches                  # 1690,098 M/sec                    (86,26%)
+            31.721      branch-misses             #    0,01% of all branches          (57,38%)
+            262,04 msec task-clock                #    0,999 CPUs utilized          
+       809.263.935      cycles                    #    3,088 GHz                      (71,12%)
+     2.152.608.557      instructions              #    2,66  insn per cycle           (84,85%)
 
-       0,263288909 seconds time elapsed
+       0,262383072 seconds time elapsed
 
-       0,263246000 seconds user
-       0,000000000 seconds sys
+       0,258318000 seconds user
+       0,003974000 seconds sys
 
 

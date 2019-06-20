@@ -1,18 +1,18 @@
 
  Performance counter stats for './a.out 3000000':
 
-         4.834.103      L1-dcache-load-misses                                         (85,48%)
-           222.917      l2_rqsts.code_rd_miss     #    0,292 M/sec                    (84,97%)
-            43.909      LLC-load-misses                                               (85,82%)
-       280.830.374      branches                  #  367,440 M/sec                    (85,98%)
-        36.747.202      branch-misses             #   13,09% of all branches          (57,75%)
-            764,29 msec task-clock                #    0,991 CPUs utilized          
-     2.357.029.211      cycles                    #    3,084 GHz                      (71,77%)
-     2.732.730.915      instructions              #    1,16  insn per cycle           (85,78%)
+         4.762.613      L1-dcache-load-misses                                         (85,40%)
+         5.221.140      l2_rqsts.miss             #    6,870 M/sec                    (85,38%)
+            38.862      LLC-load-misses                                               (85,72%)
+       281.687.913      branches                  #  370,660 M/sec                    (85,91%)
+        36.639.164      branch-misses             #   13,01% of all branches          (57,60%)
+            759,96 msec task-clock                #    0,992 CPUs utilized          
+     2.344.797.938      cycles                    #    3,085 GHz                      (71,71%)
+     2.749.185.368      instructions              #    1,17  insn per cycle           (85,82%)
 
-       0,771234358 seconds time elapsed
+       0,766457506 seconds time elapsed
 
-       0,761236000 seconds user
-       0,003964000 seconds sys
+       0,756954000 seconds user
+       0,003963000 seconds sys
 
 

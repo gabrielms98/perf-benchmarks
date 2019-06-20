@@ -1,18 +1,18 @@
 
  Performance counter stats for './a.out 3600000':
 
-         4.876.403      L1-dcache-load-misses                                         (85,36%)
-           141.671      l2_rqsts.code_rd_miss     #    0,185 M/sec                    (85,50%)
-            58.200      LLC-load-misses                                               (85,89%)
-       281.446.230      branches                  #  367,891 M/sec                    (85,89%)
-        36.843.770      branch-misses             #   13,09% of all branches          (57,37%)
-            765,03 msec task-clock                #    0,999 CPUs utilized          
-     2.359.972.021      cycles                    #    3,085 GHz                      (71,48%)
-     2.735.067.211      instructions              #    1,16  insn per cycle           (85,60%)
+         4.888.512      L1-dcache-load-misses                                         (85,27%)
+         5.029.092      l2_rqsts.miss             #    6,617 M/sec                    (85,79%)
+            37.511      LLC-load-misses                                               (85,79%)
+       281.522.371      branches                  #  370,397 M/sec                    (85,79%)
+        36.632.031      branch-misses             #   13,01% of all branches          (57,35%)
+            760,06 msec task-clock                #    0,999 CPUs utilized          
+     2.345.941.400      cycles                    #    3,087 GHz                      (71,56%)
+     2.748.586.645      instructions              #    1,17  insn per cycle           (85,77%)
 
-       0,765534696 seconds time elapsed
+       0,760912052 seconds time elapsed
 
-       0,753295000 seconds user
-       0,012020000 seconds sys
+       0,748341000 seconds user
+       0,012005000 seconds sys
 
 

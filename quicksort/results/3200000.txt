@@ -1,18 +1,18 @@
 
  Performance counter stats for './a.out 3200000':
 
-         4.829.795      L1-dcache-load-misses                                         (85,41%)
-           153.356      l2_rqsts.code_rd_miss     #    0,200 M/sec                    (85,42%)
-            55.173      LLC-load-misses                                               (85,93%)
-       281.539.624      branches                  #  366,912 M/sec                    (85,93%)
-        36.748.700      branch-misses             #   13,05% of all branches          (57,31%)
-            767,32 msec task-clock                #    0,999 CPUs utilized          
-     2.367.126.800      cycles                    #    3,085 GHz                      (71,38%)
-     2.722.227.180      instructions              #    1,15  insn per cycle           (85,46%)
+         4.865.198      L1-dcache-load-misses                                         (85,72%)
+         4.936.931      l2_rqsts.miss             #    6,505 M/sec                    (85,77%)
+            35.439      LLC-load-misses                                               (85,77%)
+       281.699.103      branches                  #  371,176 M/sec                    (85,77%)
+        36.816.362      branch-misses             #   13,07% of all branches          (56,97%)
+            758,94 msec task-clock                #    0,999 CPUs utilized          
+     2.342.151.434      cycles                    #    3,086 GHz                      (71,20%)
+     2.720.784.770      instructions              #    1,16  insn per cycle           (85,42%)
 
-       0,767872464 seconds time elapsed
+       0,759400402 seconds time elapsed
 
-       0,759612000 seconds user
-       0,007995000 seconds sys
+       0,751214000 seconds user
+       0,008034000 seconds sys
 
 
