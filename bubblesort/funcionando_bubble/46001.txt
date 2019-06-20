@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 46001':
+
+        64.725.612      L1-dcache-load-misses                                         (85,70%)
+         1.106.781      l2_rqsts.code_rd_miss     #    0,107 M/sec                    (85,70%)
+            50.836      LLC-load-misses                                               (85,70%)
+     2.120.523.380      branches                  #  204,847 M/sec                    (85,70%)
+       274.475.049      branch-misses             #   12,94% of all branches          (57,19%)
+         10.351,77 msec task-clock                #    1,000 CPUs utilized          
+    23.701.143.581      cycles                    #    2,290 GHz                      (71,46%)
+    49.123.796.211      instructions              #    2,07  insn per cycle           (85,72%)
+
+      10,352525060 seconds time elapsed
+
+      10,348201000 seconds user
+       0,004000000 seconds sys
+
+

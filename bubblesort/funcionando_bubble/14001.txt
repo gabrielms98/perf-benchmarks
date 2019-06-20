@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 14001':
+
+         3.664.007      L1-dcache-load-misses                                         (85,69%)
+            91.520      l2_rqsts.code_rd_miss     #    0,099 M/sec                    (85,73%)
+             9.083      LLC-load-misses                                               (85,79%)
+       196.582.713      branches                  #  212,508 M/sec                    (85,73%)
+        20.150.518      branch-misses             #   10,25% of all branches          (57,06%)
+            925,06 msec task-clock                #    0,999 CPUs utilized          
+     2.117.327.864      cycles                    #    2,289 GHz                      (71,33%)
+     4.546.694.225      instructions              #    2,15  insn per cycle           (85,59%)
+
+       0,925971132 seconds time elapsed
+
+       0,925413000 seconds user
+       0,000000000 seconds sys
+
+

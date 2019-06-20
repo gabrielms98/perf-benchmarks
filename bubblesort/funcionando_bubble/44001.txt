@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 44001':
+
+        59.372.118      L1-dcache-load-misses                                         (85,70%)
+         1.344.371      l2_rqsts.code_rd_miss     #    0,139 M/sec                    (85,71%)
+           187.306      LLC-load-misses                                               (85,71%)
+     1.940.479.530      branches                  #  199,932 M/sec                    (85,70%)
+       250.255.082      branch-misses             #   12,90% of all branches          (57,19%)
+          9.705,71 msec task-clock                #    1,000 CPUs utilized          
+    22.210.127.961      cycles                    #    2,288 GHz                      (71,45%)
+    44.925.682.493      instructions              #    2,02  insn per cycle           (85,71%)
+
+       9,709409241 seconds time elapsed
+
+       9,702238000 seconds user
+       0,003999000 seconds sys
+
+

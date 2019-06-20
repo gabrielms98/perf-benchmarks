@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 5001':
+
+           536.242      L1-dcache-load-misses                                         (83,79%)
+            58.948      l2_rqsts.code_rd_miss     #    0,398 M/sec                    (84,00%)
+            17.244      LLC-load-misses                                               (86,14%)
+        25.482.823      branches                  #  172,219 M/sec                    (87,22%)
+         1.494.617      branch-misses             #    5,87% of all branches          (58,84%)
+            147,97 msec task-clock                #    0,985 CPUs utilized          
+       337.526.791      cycles                    #    2,281 GHz                      (72,25%)
+       576.636.657      instructions              #    1,71  insn per cycle           (85,76%)
+
+       0,150200596 seconds time elapsed
+
+       0,148500000 seconds user
+       0,000000000 seconds sys
+
+

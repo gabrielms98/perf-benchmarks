@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 19001':
+
+         9.095.092      L1-dcache-load-misses                                         (85,69%)
+           182.031      l2_rqsts.code_rd_miss     #    0,105 M/sec                    (85,73%)
+            14.428      LLC-load-misses                                               (85,70%)
+       361.599.662      branches                  #  208,616 M/sec                    (85,69%)
+        40.101.414      branch-misses             #   11,09% of all branches          (57,19%)
+          1.733,33 msec task-clock                #    0,999 CPUs utilized          
+     3.967.376.834      cycles                    #    2,289 GHz                      (71,49%)
+     8.423.503.442      instructions              #    2,12  insn per cycle           (85,72%)
+
+       1,734986151 seconds time elapsed
+
+       1,733695000 seconds user
+       0,000000000 seconds sys
+
+

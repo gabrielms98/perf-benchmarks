@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 9001':
+
+           371.567      L1-dcache-load-misses                                         (85,23%)
+            40.853      l2_rqsts.code_rd_miss     #    0,120 M/sec                    (85,86%)
+             7.518      LLC-load-misses                                               (85,85%)
+        81.393.416      branches                  #  239,947 M/sec                    (85,85%)
+         6.833.322      branch-misses             #    8,40% of all branches          (57,21%)
+            339,21 msec task-clock                #    0,999 CPUs utilized          
+       776.382.182      cycles                    #    2,289 GHz                      (71,36%)
+     1.865.771.749      instructions              #    2,40  insn per cycle           (85,51%)
+
+       0,339582569 seconds time elapsed
+
+       0,339492000 seconds user
+       0,000000000 seconds sys
+
+
