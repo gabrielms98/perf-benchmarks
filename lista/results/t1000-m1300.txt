@@ -1,18 +1,18 @@
 
  Performance counter stats for './a.out 1000 50000 1300':
 
-         1.599.032      L1-dcache-load-misses                                         (85,17%)
-           148.203      l2_rqsts.miss             #    0,550 M/sec                    (85,17%)
-             7.315      LLC-load-misses                                               (85,17%)
-       307.685.589      branches                  # 1141,167 M/sec                    (85,17%)
-            60.808      branch-misses             #    0,02% of all branches          (59,34%)
-            269,62 msec task-clock                #    0,999 CPUs utilized          
-       617.319.956      cycles                    #    2,290 GHz                      (72,78%)
-     1.430.522.231      instructions              #    2,32  insn per cycle           (86,13%)
+         5.291.759      L1-dcache-load-misses                                         (84,92%)
+           483.849      l2_rqsts.miss             #    1,661 M/sec                    (84,91%)
+            39.934      LLC-load-misses                                               (85,88%)
+       304.490.100      branches                  # 1045,197 M/sec                    (86,29%)
+            70.603      branch-misses             #    0,02% of all branches          (58,00%)
+            291,32 msec task-clock                #    0,996 CPUs utilized          
+       666.067.939      cycles                    #    2,286 GHz                      (71,65%)
+     1.436.815.455      instructions              #    2,16  insn per cycle           (85,35%)
 
-       0,269901536 seconds time elapsed
+       0,292380889 seconds time elapsed
 
-       0,269916000 seconds user
+       0,291675000 seconds user
        0,000000000 seconds sys
 
 

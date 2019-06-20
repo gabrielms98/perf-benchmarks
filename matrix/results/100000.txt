@@ -1,7 +1,18 @@
-event syntax error: '..oad-misses,ll2_rqsts.miss,LLC-load-misses,branches,branch-misses,task-clock,cycles,instructions'
-                                  \___ parser error
-Run 'perf list' for a list of valid events
 
- Usage: perf stat [<options>] [<command>]
+ Performance counter stats for './a.out 100000':
 
-    -e, --event <event>   event selector. use 'perf list' to list available events
+            46.911      L1-dcache-load-misses                                         (85,27%)
+           117.025      l2_rqsts.miss             #    0,269 M/sec                    (85,27%)
+             3.943      LLC-load-misses                                               (85,27%)
+       133.762.714      branches                  #  307,937 M/sec                    (86,11%)
+         2.753.218      branch-misses             #    2,06% of all branches          (58,08%)
+            434,38 msec task-clock                #    0,999 CPUs utilized          
+       994.475.202      cycles                    #    2,289 GHz                      (71,90%)
+     3.032.652.690      instructions              #    3,05  insn per cycle           (85,71%)
+
+       0,434713043 seconds time elapsed
+
+       0,434676000 seconds user
+       0,000000000 seconds sys
+
+
