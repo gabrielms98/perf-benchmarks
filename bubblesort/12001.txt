@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 12001':
+
+         2.220.998      L1-dcache-load-misses                                         (85,34%)
+           300.438      l2_rqsts.miss             #    0,648 M/sec                    (85,34%)
+             5.997      LLC-load-misses                                               (85,35%)
+       144.622.338      branches                  #  311,794 M/sec                    (85,64%)
+        13.102.808      branch-misses             #    9,06% of all branches          (58,33%)
+            463,84 msec task-clock                #    0,999 CPUs utilized          
+     1.431.373.564      cycles                    #    3,086 GHz                      (72,13%)
+     3.334.478.894      instructions              #    2,33  insn per cycle           (85,92%)
+
+       0,464295873 seconds time elapsed
+
+       0,464121000 seconds user
+       0,000000000 seconds sys
+
+

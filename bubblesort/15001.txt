@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 15001':
+
+         4.564.195      L1-dcache-load-misses                                         (85,52%)
+           457.662      l2_rqsts.miss             #    0,613 M/sec                    (85,53%)
+             6.911      LLC-load-misses                                               (85,53%)
+       225.754.944      branches                  #  302,561 M/sec                    (85,53%)
+        22.208.018      branch-misses             #    9,84% of all branches          (57,89%)
+            746,15 msec task-clock                #    0,999 CPUs utilized          
+     2.302.840.860      cycles                    #    3,086 GHz                      (72,06%)
+     5.228.184.239      instructions              #    2,27  insn per cycle           (86,00%)
+
+       0,746671741 seconds time elapsed
+
+       0,746401000 seconds user
+       0,000000000 seconds sys
+
+

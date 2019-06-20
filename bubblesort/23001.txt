@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 23001':
+
+        14.324.247      L1-dcache-load-misses                                         (85,66%)
+           555.488      l2_rqsts.miss             #    0,306 M/sec                    (85,66%)
+             8.044      LLC-load-misses                                               (85,68%)
+       530.317.375      branches                  #  292,458 M/sec                    (85,66%)
+        58.407.297      branch-misses             #   11,01% of all branches          (57,34%)
+          1.813,31 msec task-clock                #    1,000 CPUs utilized          
+     5.598.458.656      cycles                    #    3,087 GHz                      (71,58%)
+    12.314.442.998      instructions              #    2,20  insn per cycle           (85,69%)
+
+       1,814025252 seconds time elapsed
+
+       1,809597000 seconds user
+       0,003994000 seconds sys
+
+

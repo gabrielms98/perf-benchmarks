@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 17001':
+
+         6.625.500      L1-dcache-load-misses                                         (85,55%)
+           565.058      l2_rqsts.miss             #    0,583 M/sec                    (85,55%)
+             6.255      LLC-load-misses                                               (85,55%)
+       289.969.238      branches                  #  299,306 M/sec                    (85,66%)
+        29.698.841      branch-misses             #   10,24% of all branches          (57,68%)
+            968,81 msec task-clock                #    0,999 CPUs utilized          
+     2.990.666.168      cycles                    #    3,087 GHz                      (71,72%)
+     6.723.982.476      instructions              #    2,25  insn per cycle           (85,76%)
+
+       0,969384673 seconds time elapsed
+
+       0,969096000 seconds user
+       0,000000000 seconds sys
+
+

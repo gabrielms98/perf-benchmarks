@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 1':
+
+            13.445      L1-dcache-load-misses                                       
+            28.618      l2_rqsts.miss             #   95,410 M/sec                  
+             1.133      LLC-load-misses                                             
+           137.459      branches                  #  458,278 M/sec                  
+     <not counted>      branch-misses                                                 (0,00%)
+              0,30 msec task-clock                #    0,458 CPUs utilized          
+     <not counted>      cycles                                                        (0,00%)
+     <not counted>      instructions                                                  (0,00%)
+
+       0,000654470 seconds time elapsed
+
+       0,000628000 seconds user
+       0,000000000 seconds sys
+
+
