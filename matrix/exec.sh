@@ -5,7 +5,7 @@
 echo 0 > /proc/sys/kernel/nmi_watchdog
 
 for i in $(seq 10000 10000 300000) ; do
-  sudo perf stat -e L1-dcache-load-misses,ll2_rqsts.miss,LLC-load-misses,branches,branch-misses,task-clock,cycles,instructions ./a.out $i 2> results/$i.txt
+  sudo perf stat -e L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses,branches,branch-misses,task-clock,cycles,instructions ./a.out $i 2> results/$i.txt
 done
 
 echo 1 > /proc/sys/kernel/nmi_watchdog
