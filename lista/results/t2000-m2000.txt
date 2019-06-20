@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 2000 50000 2000':
+
+        51.678.284      L1-dcache-load-misses                                         (85,34%)
+           206.803      l2_rqsts.miss             #    0,345 M/sec                    (85,34%)
+             6.621      LLC-load-misses                                               (85,63%)
+       616.599.011      branches                  # 1027,399 M/sec                    (86,00%)
+            64.296      branch-misses             #    0,01% of all branches          (57,69%)
+            600,16 msec task-clock                #    0,999 CPUs utilized          
+     1.373.971.488      cycles                    #    2,289 GHz                      (71,59%)
+     2.887.978.044      instructions              #    2,10  insn per cycle           (85,59%)
+
+       0,601019772 seconds time elapsed
+
+       0,596527000 seconds user
+       0,003976000 seconds sys
+
+
