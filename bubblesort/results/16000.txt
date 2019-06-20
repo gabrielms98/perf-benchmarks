@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 16000':
+
+         5.608.486      L1-dcache-load-misses                                         (85,55%)
+         1.002.473      l2_rqsts.miss             #    0,863 M/sec                    (85,57%)
+            21.724      LLC-load-misses                                               (85,55%)
+       256.986.633      branches                  #  221,118 M/sec                    (85,81%)
+        25.893.315      branch-misses             #   10,08% of all branches          (57,52%)
+          1.162,21 msec task-clock                #    0,999 CPUs utilized          
+     2.659.320.887      cycles                    #    2,288 GHz                      (71,62%)
+     5.931.570.496      instructions              #    2,23  insn per cycle           (85,73%)
+
+       1,163324161 seconds time elapsed
+
+       1,158571000 seconds user
+       0,004008000 seconds sys
+
+

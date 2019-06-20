@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 26000':
+
+        18.819.117      L1-dcache-load-misses                                         (85,72%)
+         1.393.970      l2_rqsts.miss             #    0,437 M/sec                    (85,72%)
+            16.054      LLC-load-misses                                               (85,73%)
+       677.921.638      branches                  #  212,344 M/sec                    (85,72%)
+        77.135.851      branch-misses             #   11,38% of all branches          (57,12%)
+          3.192,56 msec task-clock                #    0,999 CPUs utilized          
+     7.308.726.101      cycles                    #    2,289 GHz                      (71,38%)
+    15.697.339.616      instructions              #    2,15  insn per cycle           (85,66%)
+
+       3,194376133 seconds time elapsed
+
+       3,189018000 seconds user
+       0,003996000 seconds sys
+
+
