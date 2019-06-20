@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 4800000':
+
+         4.876.510      L1-dcache-load-misses                                         (85,60%)
+           439.707      l2_rqsts.code_rd_miss     #    0,572 M/sec                    (85,61%)
+            82.486      LLC-load-misses                                               (85,59%)
+       281.723.680      branches                  #  366,275 M/sec                    (85,61%)
+        36.350.092      branch-misses             #   12,90% of all branches          (57,59%)
+            769,16 msec task-clock                #    0,989 CPUs utilized          
+     2.371.044.397      cycles                    #    3,083 GHz                      (72,01%)
+     2.737.136.662      instructions              #    1,15  insn per cycle           (86,07%)
+
+       0,777790810 seconds time elapsed
+
+       0,762035000 seconds user
+       0,007937000 seconds sys
+
+

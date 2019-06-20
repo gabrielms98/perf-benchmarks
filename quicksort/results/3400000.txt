@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 3400000':
+
+         4.977.142      L1-dcache-load-misses                                         (85,51%)
+           195.464      l2_rqsts.code_rd_miss     #    0,253 M/sec                    (85,50%)
+            71.727      LLC-load-misses                                               (85,50%)
+       281.567.398      branches                  #  364,851 M/sec                    (85,55%)
+        36.412.966      branch-misses             #   12,93% of all branches          (57,94%)
+            771,73 msec task-clock                #    0,999 CPUs utilized          
+     2.375.778.000      cycles                    #    3,078 GHz                      (71,92%)
+     2.750.011.816      instructions              #    1,16  insn per cycle           (85,90%)
+
+       0,772757304 seconds time elapsed
+
+       0,760000000 seconds user
+       0,012000000 seconds sys
+
+

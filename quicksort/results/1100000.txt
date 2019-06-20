@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 1100000':
+
+         4.841.025      L1-dcache-load-misses                                         (85,35%)
+           139.129      l2_rqsts.code_rd_miss     #    0,182 M/sec                    (85,48%)
+            50.692      LLC-load-misses                                               (85,88%)
+       281.378.245      branches                  #  368,929 M/sec                    (85,87%)
+        36.813.890      branch-misses             #   13,08% of all branches          (57,42%)
+            762,69 msec task-clock                #    0,997 CPUs utilized          
+     2.353.166.085      cycles                    #    3,085 GHz                      (71,55%)
+     2.731.748.122      instructions              #    1,16  insn per cycle           (85,67%)
+
+       0,764882535 seconds time elapsed
+
+       0,759120000 seconds user
+       0,003995000 seconds sys
+
+
