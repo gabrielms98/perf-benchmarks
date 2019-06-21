@@ -1,1 +1,22 @@
+<<<<<<< HEAD
 bash: sudo: command not found
+=======
+
+ Performance counter stats for './a.out 70000':
+
+           581.418      L1-dcache-load-misses                                         (82,55%)
+           472.686      l2_rqsts.miss             #   20,628 M/sec                    (82,55%)
+             4.991      LLC-load-misses                                               (82,54%)
+         6.654.966      branches                  #  290,420 M/sec                    (82,55%)
+           631.150      branch-misses             #    9,48% of all branches          (69,81%)
+             22,91 msec task-clock                #    0,989 CPUs utilized          
+        52.416.701      cycles                    #    2,287 GHz                      (82,76%)
+        56.782.286      instructions              #    1,08  insn per cycle           (82,76%)
+
+       0,023176532 seconds time elapsed
+
+       0,023210000 seconds user
+       0,000000000 seconds sys
+
+
+>>>>>>> master
