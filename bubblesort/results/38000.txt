@@ -1,9 +1,18 @@
-WARNING: perf not found for kernel 4.4.0-17134
 
-  You may need to install the following packages for this specific kernel:
-    linux-tools-4.4.0-17134-Microsoft
-    linux-cloud-tools-4.4.0-17134-Microsoft
+ Performance counter stats for './a.out 38000':
 
-  You may also want to install one of the following packages to keep up to date:
-    linux-tools-Microsoft
-    linux-cloud-tools-Microsoft
+          43102369      L1-dcache-load-misses                                         (85.68%)
+           1872969      l2_rqsts.miss             #    0.367 M/sec                    (85.68%)
+              4865      LLC-load-misses                                               (85.70%)
+        1446208535      branches                  #  282.998 M/sec                    (85.75%)
+         175459782      branch-misses             #   12.13% of all branches          (57.19%)
+           5110.32 msec task-clock                #    1.000 CPUs utilized          
+       15780760356      cycles                    #    3.088 GHz                      (71.44%)
+       33434862346      instructions              #    2.12  insn per cycle           (85.68%)
+
+       5.110706896 seconds time elapsed
+
+       5.106699000 seconds user
+       0.003998000 seconds sys
+
+
