@@ -1,6 +1,6 @@
 # PERF TEST
 
-##To run the application:
+## To run the application:
 
 First clone the repository
 
@@ -18,7 +18,7 @@ $ chmod +x exec.sh
 $ ./exec.sh
 ```
 
-##Prerequisite:
+## Prerequisite:
 To run the exec.sh you need gcc and perf
 
 ```console
