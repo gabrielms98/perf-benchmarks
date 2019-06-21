@@ -1,0 +1,23 @@
+==1501== Cachegrind, a cache and branch-prediction profiler
+==1501== Copyright (C) 2002-2015, and GNU GPL'd, by Nicholas Nethercote et al.
+==1501== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==1501== Command: ./fibonacci/a.out 10
+==1501== 
+--1501-- warning: L3 cache found, using its data for the LL simulation.
+==1501== error calling PR_SET_PTRACER, vgdb might block
+==1501== 
+==1501== I   refs:      158,667
+==1501== I1  misses:        598
+==1501== LLi misses:        594
+==1501== I1  miss rate:    0.38%
+==1501== LLi miss rate:    0.37%
+==1501== 
+==1501== D   refs:       52,658  (40,165 rd   + 12,493 wr)
+==1501== D1  misses:      1,459  ( 1,141 rd   +    318 wr)
+==1501== LLd misses:      1,355  ( 1,057 rd   +    298 wr)
+==1501== D1  miss rate:     2.8% (   2.8%     +    2.5%  )
+==1501== LLd miss rate:     2.6% (   2.6%     +    2.4%  )
+==1501== 
+==1501== LL refs:         2,057  ( 1,739 rd   +    318 wr)
+==1501== LL misses:       1,949  ( 1,651 rd   +    298 wr)
+==1501== LL miss rate:      0.9% (   0.8%     +    2.4%  )

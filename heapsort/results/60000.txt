@@ -1,7 +1,1 @@
-event syntax error: '..oad-misses,ll2_rqsts.miss,LLC-load-misses,branches,branch-misses,task-clock,cycles,instructions'
-                                  \___ parser error
-Run 'perf list' for a list of valid events
-
- Usage: perf stat [<options>] [<command>]
-
-    -e, --event <event>   event selector. use 'perf list' to list available events
+bash: sudo: command not found
