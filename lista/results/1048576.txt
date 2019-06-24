@@ -1,22 +1,22 @@
-==7175== Cachegrind, a cache and branch-prediction profiler
-==7175== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
-==7175== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
-==7175== Command: ./a.out 5000 100 10000
-==7175== 
---7175-- warning: L3 cache found, using its data for the LL simulation.
-==7175== 
-==7175== I   refs:      969,042,855
-==7175== I1  misses:            989
-==7175== LLi misses:            989
-==7175== I1  miss rate:        0.00%
-==7175== LLi miss rate:        0.00%
-==7175== 
-==7175== D   refs:      660,010,402  (405,322,917 rd   + 254,687,485 wr)
-==7175== D1  misses:          7,833  (      4,557 rd   +       3,276 wr)
-==7175== LLd misses:          7,829  (      4,553 rd   +       3,276 wr)
-==7175== D1  miss rate:         0.0% (        0.0%     +         0.0%  )
-==7175== LLd miss rate:         0.0% (        0.0%     +         0.0%  )
-==7175== 
-==7175== LL refs:             8,822  (      5,546 rd   +       3,276 wr)
-==7175== LL misses:           8,818  (      5,542 rd   +       3,276 wr)
-==7175== LL miss rate:          0.0% (        0.0%     +         0.0%  )
+==6070== Cachegrind, a cache and branch-prediction profiler
+==6070== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==6070== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==6070== Command: ./a.out 10000 100 10000
+==6070== 
+--6070-- warning: L3 cache found, using its data for the LL simulation.
+==6070== 
+==6070== I   refs:      1,927,118,741
+==6070== I1  misses:              989
+==6070== LLi misses:              989
+==6070== I1  miss rate:          0.00%
+==6070== LLi miss rate:          0.00%
+==6070== 
+==6070== D   refs:      1,313,539,458  (806,553,983 rd   + 506,985,475 wr)
+==6070== D1  misses:           10,350  (      4,578 rd   +       5,772 wr)
+==6070== LLd misses:           10,345  (      4,573 rd   +       5,772 wr)
+==6070== D1  miss rate:           0.0% (        0.0%     +         0.0%  )
+==6070== LLd miss rate:           0.0% (        0.0%     +         0.0%  )
+==6070== 
+==6070== LL refs:              11,339  (      5,567 rd   +       5,772 wr)
+==6070== LL misses:            11,334  (      5,562 rd   +       5,772 wr)
+==6070== LL miss rate:            0.0% (        0.0%     +         0.0%  )
