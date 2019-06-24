@@ -5,6 +5,7 @@ do
 	valgrind --tool=cachegrind \
 		--I1=$c,4,128 \
 		--D1=$c,4,128 \
+		--L2=$c,4,128 \
 		--LL=$c,4,128 \
 		./a.out 10000 100 10000 2> results/$c.txt
 	
