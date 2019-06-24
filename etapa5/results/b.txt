@@ -1,0 +1,18 @@
+
+ Performance counter stats for './b':
+
+            46.901      L1-dcache-load-misses                                       
+            73.085      l2_rqsts.miss             #   55,380 M/sec                  
+             3.743      LLC-load-misses                                             
+           577.009      branches                  #  437,228 M/sec                  
+     <not counted>      branch-misses                                                 (0,00%)
+              1,32 msec task-clock                #    0,857 CPUs utilized          
+     <not counted>      cycles                                                        (0,00%)
+     <not counted>      instructions                                                  (0,00%)
+
+       0,001540620 seconds time elapsed
+
+       0,001637000 seconds user
+       0,000000000 seconds sys
+
+

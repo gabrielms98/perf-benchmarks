@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a':
+
+            40.538      L1-dcache-load-misses                                       
+            66.837      l2_rqsts.miss             #   48,366 M/sec                  
+             4.610      LLC-load-misses                                             
+           615.961      branches                  #  445,731 M/sec                  
+     <not counted>      branch-misses                                                 (0,00%)
+              1,38 msec task-clock                #    0,829 CPUs utilized          
+     <not counted>      cycles                                                        (0,00%)
+     <not counted>      instructions                                                  (0,00%)
+
+       0,001666115 seconds time elapsed
+
+       0,001723000 seconds user
+       0,000000000 seconds sys
+
+
