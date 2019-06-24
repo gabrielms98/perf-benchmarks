@@ -1,0 +1,23 @@
+==1602== Cachegrind, a cache and branch-prediction profiler
+==1602== Copyright (C) 2002-2015, and GNU GPL'd, by Nicholas Nethercote et al.
+==1602== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==1602== Command: ./matrix/a.out 1000
+==1602== 
+--1602-- warning: L3 cache found, using its data for the LL simulation.
+==1602== error calling PR_SET_PTRACER, vgdb might block
+==1602== 
+==1602== I   refs:      30,493,675
+==1602== I1  misses:           795
+==1602== LLi misses:           634
+==1602== I1  miss rate:       0.00%
+==1602== LLi miss rate:       0.00%
+==1602== 
+==1602== D   refs:      15,439,208  (15,105,906 rd   + 333,302 wr)
+==1602== D1  misses:         2,327  (     1,934 rd   +     393 wr)
+==1602== LLd misses:         1,521  (     1,200 rd   +     321 wr)
+==1602== D1  miss rate:        0.0% (       0.0%     +     0.1%  )
+==1602== LLd miss rate:        0.0% (       0.0%     +     0.1%  )
+==1602== 
+==1602== LL refs:            3,122  (     2,729 rd   +     393 wr)
+==1602== LL misses:          2,155  (     1,834 rd   +     321 wr)
+==1602== LL miss rate:         0.0% (       0.0%     +     0.1%  )

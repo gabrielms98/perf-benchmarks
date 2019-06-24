@@ -1,18 +1,18 @@
 
  Performance counter stats for './a.out 13000':
 
-         3.496.202      L1-dcache-load-misses                                         (85,63%)
-         1.308.726      l2_rqsts.miss             #    1,622 M/sec                    (85,65%)
-            59.909      LLC-load-misses                                               (85,67%)
-       169.778.434      branches                  #  210,470 M/sec                    (85,79%)
-        16.350.797      branch-misses             #    9,63% of all branches          (57,27%)
-            806,66 msec task-clock                #    0,995 CPUs utilized          
-     1.843.424.092      cycles                    #    2,285 GHz                      (71,82%)
-     3.927.823.718      instructions              #    2,13  insn per cycle           (85,68%)
+           3013274      L1-dcache-load-misses                                         (85.40%)
+            154298      l2_rqsts.miss             #    0.282 M/sec                    (85.40%)
+              3876      LLC-load-misses                                               (85.40%)
+         169578722      branches                  #  309.412 M/sec                    (85.85%)
+          15923085      branch-misses             #    9.39% of all branches          (57.95%)
+            548.07 msec task-clock                #    1.000 CPUs utilized          
+        1692364416      cycles                    #    3.088 GHz                      (71.81%)
+        3918460806      instructions              #    2.32  insn per cycle           (85.68%)
 
-       0,810844056 seconds time elapsed
+       0.548298242 seconds time elapsed
 
-       0,807029000 seconds user
-       0,000000000 seconds sys
+       0.548339000 seconds user
+       0.000000000 seconds sys
 
 

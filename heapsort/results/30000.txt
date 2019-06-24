@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+bash: sudo: command not found
+=======
 
  Performance counter stats for './a.out 30000':
 
@@ -16,3 +19,4 @@
        0,000000000 seconds sys
 
 
+>>>>>>> master

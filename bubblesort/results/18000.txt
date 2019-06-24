@@ -1,18 +1,18 @@
 
  Performance counter stats for './a.out 18000':
 
-         8.035.594      L1-dcache-load-misses                                         (85,66%)
-         5.391.563      l2_rqsts.miss             #    3,224 M/sec                    (85,75%)
-            99.123      LLC-load-misses                                               (85,68%)
-       325.299.321      branches                  #  194,502 M/sec                    (85,66%)
-        35.086.564      branch-misses             #   10,79% of all branches          (57,25%)
-          1.672,47 msec task-clock                #    0,996 CPUs utilized          
-     3.817.843.702      cycles                    #    2,283 GHz                      (71,50%)
-     7.559.682.570      instructions              #    1,98  insn per cycle           (85,76%)
+           7758845      L1-dcache-load-misses                                         (85.62%)
+            203871      l2_rqsts.miss             #    0.188 M/sec                    (85.62%)
+              4398      LLC-load-misses                                               (85.62%)
+         324666311      branches                  #  299.335 M/sec                    (85.62%)
+          33776474      branch-misses             #   10.40% of all branches          (57.54%)
+           1084.63 msec task-clock                #    1.000 CPUs utilized          
+        3349082615      cycles                    #    3.088 GHz                      (71.83%)
+        7547473342      instructions              #    2.25  insn per cycle           (85.85%)
 
-       1,678480108 seconds time elapsed
+       1.084804199 seconds time elapsed
 
-       1,669266000 seconds user
-       0,003983000 seconds sys
+       1.084908000 seconds user
+       0.000000000 seconds sys
 
 

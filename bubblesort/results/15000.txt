@@ -1,18 +1,18 @@
 
  Performance counter stats for './a.out 15000':
 
-         5.454.017      L1-dcache-load-misses                                         (85,62%)
-         2.240.672      l2_rqsts.miss             #    2,017 M/sec                    (85,62%)
-            87.380      LLC-load-misses                                               (85,62%)
-       225.722.552      branches                  #  203,166 M/sec                    (85,87%)
-        22.946.199      branch-misses             #   10,17% of all branches          (57,27%)
-          1.111,02 msec task-clock                #    0,998 CPUs utilized          
-     2.538.038.491      cycles                    #    2,284 GHz                      (71,28%)
-     5.230.647.304      instructions              #    2,06  insn per cycle           (85,66%)
+           4511230      L1-dcache-load-misses                                         (85.37%)
+            111976      l2_rqsts.miss             #    0.152 M/sec                    (85.37%)
+              2857      LLC-load-misses                                               (85.78%)
+         225602225      branches                  #  305.635 M/sec                    (85.91%)
+          22246108      branch-misses             #    9.86% of all branches          (57.58%)
+            738.14 msec task-clock                #    1.000 CPUs utilized          
+        2279033421      cycles                    #    3.088 GHz                      (71.67%)
+        5220728503      instructions              #    2.29  insn per cycle           (85.76%)
 
-       1,113114878 seconds time elapsed
+       0.738348450 seconds time elapsed
 
-       1,107221000 seconds user
-       0,003997000 seconds sys
+       0.738418000 seconds user
+       0.000000000 seconds sys
 
 
