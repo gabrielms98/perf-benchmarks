@@ -1,23 +1,22 @@
-==1461== Cachegrind, a cache and branch-prediction profiler
-==1461== Copyright (C) 2002-2015, and GNU GPL'd, by Nicholas Nethercote et al.
-==1461== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==1461== Command: ./fibonacci/a.out 10
-==1461== 
---1461-- warning: L3 cache found, using its data for the LL simulation.
-==1461== error calling PR_SET_PTRACER, vgdb might block
-==1461== 
-==1461== I   refs:      158,667
-==1461== I1  misses:      4,134
-==1461== LLi misses:        695
-==1461== I1  miss rate:    2.61%
-==1461== LLi miss rate:    0.44%
-==1461== 
-==1461== D   refs:       52,658  (40,165 rd   + 12,493 wr)
-==1461== D1  misses:     13,158  (11,118 rd   +  2,040 wr)
-==1461== LLd misses:      1,851  ( 1,486 rd   +    365 wr)
-==1461== D1  miss rate:    25.0% (  27.7%     +   16.3%  )
-==1461== LLd miss rate:     3.5% (   3.7%     +    2.9%  )
-==1461== 
-==1461== LL refs:        17,292  (15,252 rd   +  2,040 wr)
-==1461== LL misses:       2,546  ( 2,181 rd   +    365 wr)
-==1461== LL miss rate:      1.2% (   1.1%     +    2.9%  )
+==2538== Cachegrind, a cache and branch-prediction profiler
+==2538== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==2538== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==2538== Command: ./fibonacci/fibonacci 15
+==2538== 
+--2538-- warning: L3 cache found, using its data for the LL simulation.
+==2538== 
+==2538== I   refs:      232,240
+==2538== I1  misses:      4,012
+==2538== LLi misses:        762
+==2538== I1  miss rate:    1.73%
+==2538== LLi miss rate:    0.33%
+==2538== 
+==2538== D   refs:       75,867  (56,506 rd   + 19,361 wr)
+==2538== D1  misses:      3,238  ( 2,567 rd   +    671 wr)
+==2538== LLd misses:      2,674  ( 2,085 rd   +    589 wr)
+==2538== D1  miss rate:     4.3% (   4.5%     +    3.5%  )
+==2538== LLd miss rate:     3.5% (   3.7%     +    3.0%  )
+==2538== 
+==2538== LL refs:         7,250  ( 6,579 rd   +    671 wr)
+==2538== LL misses:       3,436  ( 2,847 rd   +    589 wr)
+==2538== LL miss rate:      1.1% (   1.0%     +    3.0%  )

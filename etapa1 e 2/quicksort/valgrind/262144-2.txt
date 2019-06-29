@@ -1,23 +1,22 @@
-==1760== Cachegrind, a cache and branch-prediction profiler
-==1760== Copyright (C) 2002-2015, and GNU GPL'd, by Nicholas Nethercote et al.
-==1760== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==1760== Command: ./quicksort/a.out 20
-==1760== 
---1760-- warning: L3 cache found, using its data for the LL simulation.
-==1760== error calling PR_SET_PTRACER, vgdb might block
-==1760== 
-==1760== I   refs:      2,723,698,114
-==1760== I1  misses:              601
-==1760== LLi misses:              600
-==1760== I1  miss rate:          0.00%
-==1760== LLi miss rate:          0.00%
-==1760== 
-==1760== D   refs:      1,456,922,053  (1,303,764,947 rd   + 153,157,106 wr)
-==1760== D1  misses:        1,592,566  (    1,434,897 rd   +     157,669 wr)
-==1760== LLd misses:        1,009,642  (      853,008 rd   +     156,634 wr)
-==1760== D1  miss rate:           0.1% (          0.1%     +         0.1%  )
-==1760== LLd miss rate:           0.1% (          0.1%     +         0.1%  )
-==1760== 
-==1760== LL refs:           1,593,167  (    1,435,498 rd   +     157,669 wr)
-==1760== LL misses:         1,010,242  (      853,608 rd   +     156,634 wr)
-==1760== LL miss rate:            0.0% (          0.0%     +         0.1%  )
+==4105== Cachegrind, a cache and branch-prediction profiler
+==4105== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4105== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==4105== Command: ./quicksort/quicksort 20
+==4105== 
+--4105-- warning: L3 cache found, using its data for the LL simulation.
+==4105== 
+==4105== I   refs:      2,723,740,754
+==4105== I1  misses:              655
+==4105== LLi misses:              655
+==4105== I1  miss rate:          0.00%
+==4105== LLi miss rate:          0.00%
+==4105== 
+==4105== D   refs:      1,456,929,069  (1,303,772,302 rd   + 153,156,767 wr)
+==4105== D1  misses:        4,561,094  (    4,237,150 rd   +     323,944 wr)
+==4105== LLd misses:        1,706,659  (    1,393,386 rd   +     313,273 wr)
+==4105== D1  miss rate:           0.3% (          0.3%     +         0.2%  )
+==4105== LLd miss rate:           0.1% (          0.1%     +         0.2%  )
+==4105== 
+==4105== LL refs:           4,561,749  (    4,237,805 rd   +     323,944 wr)
+==4105== LL misses:         1,707,314  (    1,394,041 rd   +     313,273 wr)
+==4105== LL miss rate:            0.0% (          0.0%     +         0.2%  )

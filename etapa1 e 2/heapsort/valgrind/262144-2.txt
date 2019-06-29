@@ -1,23 +1,22 @@
-==1562== Cachegrind, a cache and branch-prediction profiler
-==1562== Copyright (C) 2002-2015, and GNU GPL'd, by Nicholas Nethercote et al.
-==1562== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==1562== Command: ./heapsort/a.out 1000
-==1562== 
---1562-- warning: L3 cache found, using its data for the LL simulation.
-==1562== error calling PR_SET_PTRACER, vgdb might block
-==1562== 
-==1562== I   refs:      635,345
-==1562== I1  misses:        664
-==1562== LLi misses:        663
-==1562== I1  miss rate:    0.10%
-==1562== LLi miss rate:    0.10%
-==1562== 
-==1562== D   refs:      303,329  (262,598 rd   + 40,731 wr)
-==1562== D1  misses:      1,385  (  1,041 rd   +    344 wr)
-==1562== LLd misses:      1,378  (  1,036 rd   +    342 wr)
-==1562== D1  miss rate:     0.5% (    0.4%     +    0.8%  )
-==1562== LLd miss rate:     0.5% (    0.4%     +    0.8%  )
-==1562== 
-==1562== LL refs:         2,049  (  1,705 rd   +    344 wr)
-==1562== LL misses:       2,041  (  1,699 rd   +    342 wr)
-==1562== LL miss rate:      0.2% (    0.2%     +    0.8%  )
+==2862== Cachegrind, a cache and branch-prediction profiler
+==2862== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==2862== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==2862== Command: ./heapsort/heapsort 1000
+==2862== 
+--2862-- warning: L3 cache found, using its data for the LL simulation.
+==2862== 
+==2862== I   refs:      678,120
+==2862== I1  misses:        708
+==2862== LLi misses:        704
+==2862== I1  miss rate:    0.10%
+==2862== LLi miss rate:    0.10%
+==2862== 
+==2862== D   refs:      310,398  (269,986 rd   + 40,412 wr)
+==2862== D1  misses:      3,348  (  2,565 rd   +    783 wr)
+==2862== LLd misses:      2,810  (  2,096 rd   +    714 wr)
+==2862== D1  miss rate:     1.1% (    1.0%     +    1.9%  )
+==2862== LLd miss rate:     0.9% (    0.8%     +    1.8%  )
+==2862== 
+==2862== LL refs:         4,056  (  3,273 rd   +    783 wr)
+==2862== LL misses:       3,514  (  2,800 rd   +    714 wr)
+==2862== LL miss rate:      0.4% (    0.3%     +    1.8%  )

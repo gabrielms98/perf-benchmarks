@@ -1,23 +1,22 @@
-==1615== Cachegrind, a cache and branch-prediction profiler
-==1615== Copyright (C) 2002-2015, and GNU GPL'd, by Nicholas Nethercote et al.
-==1615== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==1615== Command: ./matrix/a.out 1000
-==1615== 
---1615-- warning: L3 cache found, using its data for the LL simulation.
-==1615== error calling PR_SET_PTRACER, vgdb might block
-==1615== 
-==1615== I   refs:      30,493,675
-==1615== I1  misses:           613
-==1615== LLi misses:           612
-==1615== I1  miss rate:       0.00%
-==1615== LLi miss rate:       0.00%
-==1615== 
-==1615== D   refs:      15,439,208  (15,105,906 rd   + 333,302 wr)
-==1615== D1  misses:         1,567  (     1,248 rd   +     319 wr)
-==1615== LLd misses:         1,415  (     1,112 rd   +     303 wr)
-==1615== D1  miss rate:        0.0% (       0.0%     +     0.1%  )
-==1615== LLd miss rate:        0.0% (       0.0%     +     0.1%  )
-==1615== 
-==1615== LL refs:            2,180  (     1,861 rd   +     319 wr)
-==1615== LL misses:          2,027  (     1,724 rd   +     303 wr)
-==1615== LL miss rate:         0.0% (       0.0%     +     0.1%  )
+==3022== Cachegrind, a cache and branch-prediction profiler
+==3022== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==3022== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==3022== Command: ./matrix/matrix 1000
+==3022== 
+--3022-- warning: L3 cache found, using its data for the LL simulation.
+==3022== 
+==3022== I   refs:      30,536,812
+==3022== I1  misses:           658
+==3022== LLi misses:           658
+==3022== I1  miss rate:       0.00%
+==3022== LLi miss rate:       0.00%
+==3022== 
+==3022== D   refs:      15,446,370  (15,113,449 rd   + 332,921 wr)
+==3022== D1  misses:         3,231  (     2,553 rd   +     678 wr)
+==3022== LLd misses:         2,704  (     2,088 rd   +     616 wr)
+==3022== D1  miss rate:        0.0% (       0.0%     +     0.2%  )
+==3022== LLd miss rate:        0.0% (       0.0%     +     0.2%  )
+==3022== 
+==3022== LL refs:            3,889  (     3,211 rd   +     678 wr)
+==3022== LL misses:          3,362  (     2,746 rd   +     616 wr)
+==3022== LL miss rate:         0.0% (       0.0%     +     0.2%  )
