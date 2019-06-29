@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 import os
 
-# python3 sep.py <pasta> <titulo do grafico> <cache>
+# python3 perf.py <pasta> <titulo do grafico> <cache>
 
 if sys.argv[3] == 'L1':
     cache = 3
