@@ -1,0 +1,18 @@
+
+ Performance counter stats for './c':
+
+           272.691      L1-dcache-load-misses                                         (85,13%)
+           414.501      l2_rqsts.miss             #    3,082 M/sec                    (85,13%)
+             9.849      LLC-load-misses                                               (85,13%)
+        91.742.379      branches                  #  682,044 M/sec                    (85,13%)
+            75.686      branch-misses             #    0,08% of all branches          (59,47%)
+            134,51 msec task-clock                #    0,998 CPUs utilized          
+       307.951.208      cycles                    #    2,289 GHz                      (74,34%)
+       567.429.496      instructions              #    1,84  insn per cycle           (87,25%)
+
+       0,134771446 seconds time elapsed
+
+       0,134811000 seconds user
+       0,000000000 seconds sys
+
+
