@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 390000':
+
+         5.682.997      L1-dcache-load-misses                                         (84,49%)
+         6.741.272      l2_rqsts.miss             #   32,698 M/sec                    (84,49%)
+           679.823      LLC-load-misses                                               (86,11%)
+        37.949.773      branches                  #  184,072 M/sec                    (86,42%)
+         3.937.626      branch-misses             #   10,38% of all branches          (58,49%)
+            206,17 msec task-clock                #    0,998 CPUs utilized          
+       470.466.961      cycles                    #    2,282 GHz                      (72,07%)
+       347.568.639      instructions              #    0,74  insn per cycle           (85,65%)
+
+       0,206617772 seconds time elapsed
+
+       0,202569000 seconds user
+       0,003971000 seconds sys
+
+

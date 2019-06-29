@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 32000':
+
+          29674632      L1-dcache-load-misses                                         (85.71%)
+            447065      l2_rqsts.miss             #    0.125 M/sec                    (85.71%)
+              3173      LLC-load-misses                                               (85.71%)
+        1025524112      branches                  #  286.110 M/sec                    (85.71%)
+         121322809      branch-misses             #   11.83% of all branches          (57.14%)
+           3584.37 msec task-clock                #    1.000 CPUs utilized          
+       11069642272      cycles                    #    3.088 GHz                      (71.43%)
+       23769351025      instructions              #    2.15  insn per cycle           (85.71%)
+
+       3.584350484 seconds time elapsed
+
+       3.584642000 seconds user
+       0.000000000 seconds sys
+
+

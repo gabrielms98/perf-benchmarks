@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 49000':
+
+          73086643      L1-dcache-load-misses                                         (85.69%)
+          18920344      l2_rqsts.miss             #    2.190 M/sec                    (85.69%)
+              9982      LLC-load-misses                                               (85.70%)
+        2404342070      branches                  #  278.310 M/sec                    (85.73%)
+         303539571      branch-misses             #   12.62% of all branches          (57.19%)
+           8639.09 msec task-clock                #    1.000 CPUs utilized          
+       26677285313      cycles                    #    3.088 GHz                      (71.45%)
+       55730079592      instructions              #    2.09  insn per cycle           (85.71%)
+
+       8.639795364 seconds time elapsed
+
+       8.639466000 seconds user
+       0.000000000 seconds sys
+
+

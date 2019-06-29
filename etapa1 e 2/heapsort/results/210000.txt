@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 210000':
+
+         2.410.019      L1-dcache-load-misses                                         (83,33%)
+         2.074.204      l2_rqsts.miss             #   28,814 M/sec                    (84,21%)
+            34.165      LLC-load-misses                                               (83,33%)
+        19.556.896      branches                  #  271,681 M/sec                    (84,10%)
+         1.939.562      branch-misses             #    9,92% of all branches          (65,03%)
+             71,98 msec task-clock                #    0,988 CPUs utilized          
+       164.648.733      cycles                    #    2,287 GHz                      (76,14%)
+       176.020.344      instructions              #    1,07  insn per cycle           (87,25%)
+
+       0,072879614 seconds time elapsed
+
+       0,072310000 seconds user
+       0,000000000 seconds sys
+
+

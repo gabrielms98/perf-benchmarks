@@ -4,14 +4,12 @@
 
 echo 0 > /proc/sys/kernel/nmi_watchdog
 
-for p in a b c; 
-do
-  sudo perf stat -e L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses,branches,branch-misses,task-clock,cycles,instructions ./$p < $p.in 2> results/$p-perf.txt
+for i in $(seq 10000 10000 300000) ; do
+  sudo perf stat -e L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses,branches,branch-misses,task-clock,cycles,instructions ./a.out $i 2> results/$i.txt
 done
 
 echo 1 > /proc/sys/kernel/nmi_watchdog
 
-for p in a b c;
-do
-  chmod 777 results/$p-perf.txt
+for i in $(seq 100000 10000 300000) ; do
+  chmod 777 results/$i.txt
 done

@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 360000':
+
+         5.489.594      L1-dcache-load-misses                                         (84,80%)
+         6.772.979      l2_rqsts.miss             #   32,210 M/sec                    (84,90%)
+           774.494      LLC-load-misses                                               (84,77%)
+        35.008.872      branches                  #  166,492 M/sec                    (86,07%)
+         3.575.145      branch-misses             #   10,21% of all branches          (59,47%)
+            210,27 msec task-clock                #    0,996 CPUs utilized          
+       479.746.745      cycles                    #    2,282 GHz                      (72,78%)
+       313.206.503      instructions              #    0,65  insn per cycle           (86,09%)
+
+       0,211020828 seconds time elapsed
+
+       0,210645000 seconds user
+       0,000000000 seconds sys
+
+

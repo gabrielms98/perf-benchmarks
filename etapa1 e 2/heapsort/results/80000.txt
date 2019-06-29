@@ -1,0 +1,19 @@
+
+ Performance counter stats for './a.out 80000':
+
+           691.166      L1-dcache-load-misses                                         (84,77%)
+           483.871      l2_rqsts.miss             #   18,413 M/sec                    (84,78%)
+            10.938      LLC-load-misses                                               (84,79%)
+         6.834.295      branches                  #  260,073 M/sec                    (84,78%)
+           709.223      branch-misses             #   10,38% of all branches          (60,88%)
+             26,28 msec task-clock                #    0,990 CPUs utilized          
+        60.109.876      cycles                    #    2,287 GHz                      (76,10%)
+        61.692.603      instructions              #    1,03  insn per cycle           (88,90%)
+
+       0,026534842 seconds time elapsed
+
+       0,026594000 seconds user
+       0,000000000 seconds sys
+
+
+>>>>>>> master

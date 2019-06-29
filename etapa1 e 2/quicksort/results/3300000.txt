@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 3300000':
+
+         4.822.458      L1-dcache-load-misses                                         (85,54%)
+         4.705.927      l2_rqsts.miss             #    6,207 M/sec                    (85,76%)
+            38.828      LLC-load-misses                                               (85,76%)
+       280.926.003      branches                  #  370,511 M/sec                    (85,76%)
+        36.603.462      branch-misses             #   13,03% of all branches          (57,19%)
+            758,21 msec task-clock                #    0,999 CPUs utilized          
+     2.340.343.342      cycles                    #    3,087 GHz                      (71,44%)
+     2.748.123.095      instructions              #    1,17  insn per cycle           (85,68%)
+
+       0,758670882 seconds time elapsed
+
+       0,754501000 seconds user
+       0,003992000 seconds sys
+
+

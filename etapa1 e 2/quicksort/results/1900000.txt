@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 1900000':
+
+         4.827.950      L1-dcache-load-misses                                         (85,56%)
+         4.659.386      l2_rqsts.miss             #    6,149 M/sec                    (85,75%)
+            36.485      LLC-load-misses                                               (85,75%)
+       280.730.249      branches                  #  370,504 M/sec                    (85,75%)
+        36.565.363      branch-misses             #   13,03% of all branches          (57,19%)
+            757,70 msec task-clock                #    0,999 CPUs utilized          
+     2.338.388.396      cycles                    #    3,086 GHz                      (71,44%)
+     2.743.335.838      instructions              #    1,17  insn per cycle           (85,70%)
+
+       0,758083197 seconds time elapsed
+
+       0,753996000 seconds user
+       0,003989000 seconds sys
+
+

@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out 14000':
+
+           3613740      L1-dcache-load-misses                                         (85.60%)
+            133291      l2_rqsts.miss             #    0.209 M/sec                    (85.60%)
+              2935      LLC-load-misses                                               (85.60%)
+         196786675      branches                  #  308.021 M/sec                    (85.60%)
+          18943493      branch-misses             #    9.63% of all branches          (57.61%)
+            638.87 msec task-clock                #    1.000 CPUs utilized          
+        1972725378      cycles                    #    3.088 GHz                      (71.91%)
+        4558802626      instructions              #    2.31  insn per cycle           (85.68%)
+
+       0.639133763 seconds time elapsed
+
+       0.635175000 seconds user
+       0.003994000 seconds sys
+
+
