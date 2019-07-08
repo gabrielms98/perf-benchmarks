@@ -1,0 +1,14 @@
+       126.710.770      L1-dcache-load-misses                                         (71,29%)
+       165.303.428      l2_rqsts.miss             #   75,084 M/sec                    (71,30%)
+         1.708.378      LLC-load-misses                                               (71,36%)
+     1.575.206.889      branches                  #  715,485 M/sec                    (71,53%)
+       249.357.019      branch-misses             #   15,83% of all branches          (57,35%)
+       2201,593866      task-clock (msec)         #    1,000 CPUs utilized          
+     7.666.893.697      cycles                    #    3,482 GHz                      (57,17%)
+     5.886.765.859      instructions              #    0,77  insn per cycle           (71,32%)
+
+       2,202477980 seconds time elapsed
+
+       2,133714000 seconds user
+       0,068054000 seconds sys
+

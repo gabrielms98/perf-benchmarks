@@ -1,0 +1,16 @@
+ Performance counter stats for './bench std::sort':
+
+        49.984.549      L1-dcache-load-misses                                         (71,46%)
+        51.249.904      l2_rqsts.miss             #   28,546 M/sec                    (71,48%)
+           718.756      LLC-load-misses                                               (71,48%)
+     1.079.660.050      branches                  #  601,362 M/sec                    (71,48%)
+       217.689.886      branch-misses             #   20,16% of all branches          (57,05%)
+       1795,358770      task-clock (msec)         #    1,000 CPUs utilized          
+     6.257.061.524      cycles                    #    3,485 GHz                      (57,03%)
+     4.174.871.702      instructions              #    0,67  insn per cycle           (71,29%)
+
+       1,795698223 seconds time elapsed
+
+       1,751592000 seconds user
+       0,043989000 seconds sys
+

@@ -1,0 +1,16 @@
+ Performance counter stats for './bench radix3':
+
+       125.012.564      L1-dcache-load-misses                                         (71,07%)
+       135.861.264      l2_rqsts.miss             #  144,575 M/sec                    (71,06%)
+         5.525.389      LLC-load-misses                                               (71,38%)
+       748.479.104      branches                  #  796,482 M/sec                    (71,82%)
+           527.228      branch-misses             #    0,07% of all branches          (57,55%)
+        939,731423      task-clock (msec)         #    1,000 CPUs utilized          
+     3.244.051.046      cycles                    #    3,452 GHz                      (57,13%)
+     4.093.227.466      instructions              #    1,26  insn per cycle           (71,18%)
+
+       0,940178355 seconds time elapsed
+
+       0,748025000 seconds user
+       0,192006000 seconds sys
+

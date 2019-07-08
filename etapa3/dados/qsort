@@ -1,0 +1,16 @@
+ Performance counter stats for './bench qsort':
+
+       135.904.259      L1-dcache-load-misses                                         (71,44%)
+       132.415.808      l2_rqsts.miss             #   22,197 M/sec                    (71,44%)
+         2.604.703      LLC-load-misses                                               (71,44%)
+     2.823.923.648      branches                  #  473,371 M/sec                    (71,44%)
+       731.511.593      branch-misses             #   25,90% of all branches          (57,12%)
+       5965,567452      task-clock (msec)         #    1,000 CPUs utilized          
+    20.770.394.927      cycles                    #    3,482 GHz                      (57,12%)
+    11.344.468.351      instructions              #    0,55  insn per cycle           (71,40%)
+
+       5,966677789 seconds time elapsed
+
+       5,905828000 seconds user
+       0,060018000 seconds sys
+
