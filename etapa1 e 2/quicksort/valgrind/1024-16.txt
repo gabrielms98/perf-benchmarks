@@ -1,4 +1,22 @@
-valgrind: Cache set count is not a power of two.
-valgrind: Bad option: --I1=1024,16,128
-valgrind: Bad argument '1024,16,128'
-valgrind: Use --help for more information or consult the user manual.
+==3404== Cachegrind, a cache and branch-prediction profiler
+==3404== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==3404== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==3404== Command: ./quicksort/quicksort 20
+==3404== 
+--3404-- warning: L3 cache found, using its data for the LL simulation.
+==3404== 
+==3404== I   refs:      2,723,740,754
+==3404== I1  misses:            3,324
+==3404== LLi misses:              799
+==3404== I1  miss rate:          0.00%
+==3404== LLi miss rate:          0.00%
+==3404== 
+==3404== D   refs:      1,456,929,069  (1,303,772,302 rd   + 153,156,767 wr)
+==3404== D1  misses:        4,561,094  (    4,237,150 rd   +     323,944 wr)
+==3404== LLd misses:        1,706,659  (    1,393,386 rd   +     313,273 wr)
+==3404== D1  miss rate:           0.3% (          0.3%     +         0.2%  )
+==3404== LLd miss rate:           0.1% (          0.1%     +         0.2%  )
+==3404== 
+==3404== LL refs:           4,564,418  (    4,240,474 rd   +     323,944 wr)
+==3404== LL misses:         1,707,458  (    1,394,185 rd   +     313,273 wr)
+==3404== LL miss rate:            0.0% (          0.0%     +         0.2%  )

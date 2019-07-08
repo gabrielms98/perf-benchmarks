@@ -13,7 +13,7 @@ elif sys.argv[3] == 'L3':
     cache = 5
 
 dict = {}
-files = sorted(os.listdir(sys.argv[1]),key=lambda x: int(x.partition('.')[0]))
+files = sorted(os.listdir(sys.argv[1]),key=lambda x: int(x[x.find('-')+1 : x.find('.')]))
 line = []
 for i in (files):
     with open(sys.argv[1]+'/'+i) as f:
